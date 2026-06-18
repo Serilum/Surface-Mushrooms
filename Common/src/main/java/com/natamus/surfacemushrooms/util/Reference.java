@@ -4,5 +4,5 @@ public class Reference {
 	public static final String MOD_ID = "surfacemushrooms";
 	public static final String NAME = "Surface Mushrooms";
 	public static final String VERSION = "3.7";
-	public static final String ACCEPTED_VERSIONS = "[26.1.2]";
+	public static final String ACCEPTED_VERSIONS = "[26.2.0]";
 }
