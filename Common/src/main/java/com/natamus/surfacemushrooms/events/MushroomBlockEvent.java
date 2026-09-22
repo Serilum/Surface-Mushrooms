@@ -6,6 +6,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.component.SwingAnimation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -39,7 +40,7 @@ public class MushroomBlockEvent {
 			BlockState placestate = block.defaultBlockState();
 			world.setBlock(above, placestate, 3);
 
-			player.swing(hand);
+			player.swingAndResetAttackStrength(hand, SwingAnimation.DEFAULT, false);
 
 			if (!player.isCreative()) {
 				itemstack.shrink(1);
