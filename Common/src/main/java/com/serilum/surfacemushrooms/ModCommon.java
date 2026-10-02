@@ -1,4 +1,4 @@
-package com.natamus.surfacemushrooms;
+package com.serilum.surfacemushrooms;
 
 
 public class ModCommon {
