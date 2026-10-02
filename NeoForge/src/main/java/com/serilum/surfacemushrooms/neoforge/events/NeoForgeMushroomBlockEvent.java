@@ -1,6 +1,6 @@
-package com.natamus.surfacemushrooms.neoforge.events;
+package com.serilum.surfacemushrooms.neoforge.events;
 
-import com.natamus.surfacemushrooms.events.MushroomBlockEvent;
+import com.serilum.surfacemushrooms.events.MushroomBlockEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 
