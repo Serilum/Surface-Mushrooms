@@ -1,4 +1,4 @@
-package com.natamus.surfacemushrooms.events;
+package com.serilum.surfacemushrooms.events;
 
 import com.natamus.collective.data.GlobalVariables;
 import net.minecraft.core.BlockPos;
