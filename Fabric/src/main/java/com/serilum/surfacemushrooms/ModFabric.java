@@ -1,10 +1,10 @@
-package com.natamus.surfacemushrooms;
+package com.serilum.surfacemushrooms;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
-import com.natamus.surfacemushrooms.events.MushroomBlockEvent;
-import com.natamus.surfacemushrooms.util.Reference;
+import com.serilum.surfacemushrooms.events.MushroomBlockEvent;
+import com.serilum.surfacemushrooms.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

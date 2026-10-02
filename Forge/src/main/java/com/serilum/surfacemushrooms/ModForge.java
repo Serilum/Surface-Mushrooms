@@ -1,9 +1,9 @@
-package com.natamus.surfacemushrooms;
+package com.serilum.surfacemushrooms;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.surfacemushrooms.forge.events.ForgeMushroomBlockEvent;
-import com.natamus.surfacemushrooms.util.Reference;
+import com.serilum.surfacemushrooms.forge.events.ForgeMushroomBlockEvent;
+import com.serilum.surfacemushrooms.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-        MinecraftForge.EVENT_BUS.register(ForgeMushroomBlockEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeMushroomBlockEvent.class);
 	}
 
 	private static void setGlobalConstants() {
