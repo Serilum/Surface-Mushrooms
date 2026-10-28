@@ -1,5 +1,5 @@
 <h2>Surface Mushrooms</h2>
-<p><a href="https://github.com/Serilum/Surface-Mushrooms"><img src="https://serilum.com/assets/images/logo/surface-mushrooms.png"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Surface-Mushrooms"><img src="https://workflow.serilum.com/web/logo/128/surface-mushrooms.png" width="100" height="100"></a></p><h2>Download</h2>
 <p>You can download Surface Mushrooms on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/surface-mushrooms">https://curseforge.com/minecraft/mc-mods/surface-mushrooms</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/surface-mushrooms">https://modrinth.com/mod/surface-mushrooms</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>

@@ -1,6 +1,6 @@
-package com.natamus.surfacemushrooms.forge.events;
+package com.serilum.surfacemushrooms.forge.events;
 
-import com.natamus.surfacemushrooms.events.MushroomBlockEvent;
+import com.serilum.surfacemushrooms.events.MushroomBlockEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
@@ -14,11 +14,11 @@ public class ForgeMushroomBlockEvent {
 		PlayerInteractEvent.RightClickBlock.BUS.addListener(ForgeMushroomBlockEvent::onMushroomPlace);
 	}
 
-    @SubscribeEvent
-    public static boolean onMushroomPlace(PlayerInteractEvent.RightClickBlock e) {
-        if (!MushroomBlockEvent.onMushroomPlace(e.getLevel(), e.getEntity(), e.getHand(), e.getPos(), e.getHitVec())) {
-            return true;
-        }
-        return false;
-    }
+	@SubscribeEvent
+	public static boolean onMushroomPlace(PlayerInteractEvent.RightClickBlock e) {
+		if (!MushroomBlockEvent.onMushroomPlace(e.getLevel(), e.getEntity(), e.getHand(), e.getPos(), e.getHitVec())) {
+			return true;
+		}
+		return false;
+	}
 }
